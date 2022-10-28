@@ -1,0 +1,13 @@
+### GET VOTE OPTIONS
+GET http://localhost:7071/api/VoteOptions
+
+### POST VOTE
+POST http://localhost:7071/api/Vote
+Content-Type: application/json
+
+{
+    "musicId": 3
+}
+
+### GET VOTE OPTIONS
+GET http://localhost:7071/api/VoteResult
